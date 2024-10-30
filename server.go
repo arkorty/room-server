@@ -56,7 +56,7 @@ var (
 )
 
 func main() {
-	port := 8083
+	port := 8080
 	http.HandleFunc("/textrt/api/v1", handleWebSocket)
 	
 	log.Printf("WebSocket server starting on port %d...", port)
