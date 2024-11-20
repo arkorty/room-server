@@ -1,5 +1,5 @@
 services:
-  textrt-server:
+  server:
     build:
       context: .
       dockerfile: Dockerfile
